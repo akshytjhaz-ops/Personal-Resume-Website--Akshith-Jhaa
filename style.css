@@ -11,27 +11,27 @@ header {
 }
 
 header img {
-    width: 180px;        /* Reduced dimension */
-    height: 180px;       /* Keep it square for a perfect circle */
-    object-fit: cover;   /* Prevents stretching */
-    border-radius: 80%;  /* Makes it circular */
-    border: 5px solid #FFD700; /* Golden Yellow Frame */
+    width: 180px;       
+    height: 180px;       
+    object-fit: cover;  
+    border-radius: 80%;  
+    border: 5px solid #FFD700;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .intro h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #FFD700;      /* Golden Yellow */
+    color: #FFD700;      
     font-size: 2.8rem;
     margin: 0;
     
     letter-spacing: 2px;
-    /* Subtle shadow makes yellow legible on aqua */
+    
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
 }
 
 .intro p {
-    color: #FFD700;      /* Matching Yellow Tagline */
+    color: #FFD700;      
     font-weight: 600;
     font-size: 1.1rem;
     margin-top: 10px;
@@ -41,7 +41,7 @@ header img {
 hr {
     border: 0;
     height: 3px;
-    background: #FFD700; /* Matching Yellow Line */
+    background: #FFD700; 
     margin: 0 10%;
 }
 
@@ -66,7 +66,7 @@ hr {
 
 .details {
     padding: 40px 10%;
-    background-color: rgba(255, 255, 255, 0.2); /* Subtle contrast from the aqua body */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 .details h2 {
@@ -79,7 +79,7 @@ hr {
 .details ul {
     list-style: none;
     padding-left: 20px;
-    border-left: 3px solid #FFD700; /* The Timeline Line */
+    border-left: 3px solid #FFD700; 
 }
 
 .details ul li {
@@ -98,7 +98,7 @@ hr {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    border-bottom: 5px solid #FFD700; /* Yellow accent at the bottom */
+    border-bottom: 5px solid #FFD700; 
     transition: transform 0.3s ease;
 }
 
@@ -108,18 +108,18 @@ hr {
 }
 
 .project-card strong {
-    color: #00838f; /* Professional dark aqua */
+    color: #00838f; 
     display: block;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
 body {
-    background-color: aqua; /* Your universal professional color */
+    background-color: aqua; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #2c3e50; /* Deep navy for readability */
+    color: #2c3e50; 
     line-height: 1.6;
 }
 
@@ -132,26 +132,26 @@ header {
 }
 
 header img {
-    width: 150px;        /* Reduced dimension */
-    height: 150px;       /* Square for perfect circle */
-    object-fit: cover;   /* Prevents stretching */
-    border-radius: 50%;  /* Rounded borders (Circle) */
-    border: 5px solid #FFD700; /* Yellow/Gold frame */
+    width: 150px;       
+    height: 150px;       
+    object-fit: cover;   
+    border-radius: 50%;  
+    border: 5px solid #FFD700; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .intro h1 {
-    color: #FFD700;      /* Yellow/Gold Name */
+    color: #FFD700;     
     font-size: 2.8rem;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* Subtle shadow to make yellow pop on aqua */
+   
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .intro p {
-    color: #FFD700;      /* Matching Yellow Tagline */
+    color: #FFD700;      
     font-weight: 600;
     font-size: 1.1rem;
     margin-top: 5px;
@@ -160,7 +160,7 @@ header img {
 hr {
     border: 0;
     height: 3px;
-    background: #FFD700; /* Yellow line below header */
+    background: #FFD700; 
     margin: 0 10%;
 }
 
@@ -185,7 +185,7 @@ main {
     width: 100%;
     max-width: 320px;
     border-radius: 15px;
-    box-shadow: 10px 10px 0px #2c3e50; /* Navy "offset" frame */
+    box-shadow: 10px 10px 0px #2c3e50; 
 }
 
 /* --- Core Skills Grid --- */
@@ -197,8 +197,8 @@ main {
 }
 
 .skill-card {
-    background-color: #2c3e50; /* Navy background for cards */
-    color: #FFD700;           /* Yellow text */
+    background-color: #2c3e50; 
+    color: #FFD700;          
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -223,7 +223,7 @@ main {
     background: rgba(255, 255, 255, 0.2);
     margin-bottom: 10px;
     padding: 15px;
-    border-left: 5px solid #FFD700; /* Yellow accent line */
+    border-left: 5px solid #FFD700; 
     border-radius: 0 8px 8px 0;
 }
 
